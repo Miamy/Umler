@@ -1,46 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Umler.Models
 {
-    public class Property : INotifyPropertyChanged
+    public class Property : Member
     {
         #region Properties
 
-        private string _name;
-        public string Name
+        private bool _hasSetter;
+        public bool HasSetter
         {
-            get { return _name; }
+            get => _hasSetter;
             set
             {
-                _name = value;
+                _hasSetter = value;
                 OnPropertyChanged();
             }
         }
 
-        Static
-            Virtual
-            Abstract
-            New
-            Override
-            Sealed
+        private bool _hasGetter;
+        public bool HasGetter
+        {
+            get => _hasGetter;
+            set
+            {
+                _hasGetter = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private bool _isPrivateSetter;
+        public bool IsPrivateSetter
+        {
+            get => _isPrivateSetter;
+            set
+            {
+                _isPrivateSetter = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private bool _isPrivateGetter;
+        public bool IsPrivateGetter
+        {
+            get => _isPrivateGetter;
+            set
+            {
+                _isPrivateGetter = value;
+                OnPropertyChanged();
+            }
+        }
 
         #endregion //Properties
 
 
-        #region INotifyPropertyChanged
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
-
-        #endregion //INotifyPropertyChanged
     }
 }

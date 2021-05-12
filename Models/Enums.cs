@@ -7,4 +7,6 @@ using System.Threading.Tasks;
 namespace Umler.Models
 {
     public enum MemberModifiers  { Public, Protected, Private, Internal, ProtectedInternal }
+
+    public enum SimpleTypes { Void, String, Int, Float, Double }
 }

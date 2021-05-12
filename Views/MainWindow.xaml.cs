@@ -28,6 +28,7 @@ namespace Umler.Views
             InitializeComponent();
             regionManager.RegisterViewWithRegion("ToolbarRegion", typeof(ToolbarControl));
             regionManager.RegisterViewWithRegion("ItemsExplorerRegion", typeof(ItemsExplorerControl));
+            regionManager.RegisterViewWithRegion("PropertiesRegion", typeof(PropertiesControl));
         }
     }
 }

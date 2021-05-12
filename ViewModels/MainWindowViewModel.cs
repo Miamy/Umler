@@ -15,15 +15,15 @@ namespace Umler.ViewModels
         private string _title = "Umler";
         public string Title
         {
-            get { return _title; }
-            set { SetProperty(ref _title, value); }
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
 
         private IApplicationCommands _applicationCommands;
         public IApplicationCommands ApplicationCommands
         {
-            get { return _applicationCommands; }
-            set { SetProperty(ref _applicationCommands, value); }
+            get => _applicationCommands;
+            set => SetProperty(ref _applicationCommands, value);
         }
 
         public ICommand ExitCommand { get; private set; }

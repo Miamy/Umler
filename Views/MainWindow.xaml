@@ -46,14 +46,51 @@
         <Grid
             Grid.Row="1"
             >
-            <ContentControl
-                x:Name="ToolbarContent"
-                prism:RegionManager.RegionName="ToolbarRegion"/>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
 
 
-            <ContentControl
-                x:Name="ItemsExplorerContent"
-                prism:RegionManager.RegionName="ItemsExplorerRegion"/>
+                <Grid
+                Grid.Column="0"
+                    >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <ContentControl
+                        x:Name="ToolbarContent"
+                        prism:RegionManager.RegionName="ToolbarRegion"
+                        Grid.Row="0"
+                        />
+
+
+                    <ContentControl
+                        x:Name="ItemsExplorerContent"
+                        prism:RegionManager.RegionName="ItemsExplorerRegion"
+                        Grid.Row="1"
+                        />
+
+                </Grid>
+
+
+            <StackPanel
+                Orientation="Vertical"
+                Grid.Column="2"
+                >
+
+                <ContentControl
+                    x:Name="PropertiesContent"
+                    prism:RegionManager.RegionName="PropertiesRegion"
+                    />
+
+
+            </StackPanel>
+
         </Grid>
 
 
