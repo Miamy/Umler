@@ -27,6 +27,7 @@ namespace Umler.Models
         public Item(string name)
         {
             Name = name;
+            Properties = new List<Property>();
         }
 
     }

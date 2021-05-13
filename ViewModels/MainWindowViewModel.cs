@@ -1,5 +1,6 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
+using Prism.Regions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,9 @@ namespace Umler.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
+        private readonly IRegionManager _regionManager;
+
+
         private string _title = "Umler";
         public string Title
         {
@@ -28,8 +32,10 @@ namespace Umler.ViewModels
 
         public ICommand ExitCommand { get; private set; }
 
-        public MainWindowViewModel(IApplicationCommands applicationCommands)
+        public MainWindowViewModel(IRegionManager regionManager, IApplicationCommands applicationCommands)
         {
+            _regionManager = regionManager;
+
             ExitCommand = new DelegateCommand(ExitAction);
 
             ApplicationCommands = applicationCommands;

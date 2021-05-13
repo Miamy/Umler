@@ -1,12 +1,23 @@
 ﻿<UserControl x:Class="Umler.Views.ToolbarControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:prism="http://prismlibrary.com/"             
              prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid>
         <ListBox
-           ItemsSource="{Binding Items}"
-           >
+            ItemsSource="{Binding Items}"
+            SelectionMode="Single"
+            >
+
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <prism:InvokeCommandAction Command="{Binding SelectedCommand}"
+                                               CommandParameter="{Binding MyParameter}"
+                                               TriggerParameterPath="AddedItems" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel
