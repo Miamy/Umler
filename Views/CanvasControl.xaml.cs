@@ -15,14 +15,9 @@ namespace Umler.Views
             InitializeComponent();
         }
 
-        private void Canvas_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void ItemsControl_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
 
-        }
-
-        private void Rectangle_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            Point pt = Mouse.GetPosition(grid);
         }
     }
 }
