@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Prism.Regions;
+using Umler.ViewModels;
 
 namespace Umler.Views
 {
@@ -29,6 +30,8 @@ namespace Umler.Views
             regionManager.RegisterViewWithRegion("ToolbarRegion", typeof(ToolbarControl));
             regionManager.RegisterViewWithRegion("ItemsExplorerRegion", typeof(ItemsExplorerControl));
             regionManager.RegisterViewWithRegion("PropertiesRegion", typeof(PropertiesControl));
+            regionManager.RegisterViewWithRegion("CanvasRegion", typeof(CanvasControl));
         }
+
     }
 }

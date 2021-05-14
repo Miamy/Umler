@@ -7,6 +7,29 @@
         <StackPanel
             x:Name="ParentPanel"
             Orientation="Vertical"            
-            />
+            >
+
+            <ListView
+                ItemsSource="{Binding Properties}"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel
+                            Orientation="Horizontal">
+
+                            <TextBlock
+                                Text="{Binding Key}"/>
+
+                            <TextBlock
+                                Text="{Binding Value}"/>
+
+                        </StackPanel>
+                        
+                    </DataTemplate>
+                    
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackPanel>
     </Grid>
 </UserControl>

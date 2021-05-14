@@ -4,6 +4,22 @@
              xmlns:prism="http://prismlibrary.com/"             
              prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid>
-        <TextBlock Text="Items explorer" FontSize="18" />
+        <ListBox xmlns:sys="clr-namespace:System;assembly=mscorlib"
+         Name="simpleListBox">
+
+            <!-- The <ListBox.Items> element is implicitly used.-->
+            This is a string in a ListBox
+
+            <sys:DateTime>2004/3/4 13:6:55</sys:DateTime>
+
+            <Rectangle Height="40" Width="40"  Fill="Blue"/>
+
+            <StackPanel Name="itemToSelect">
+                <Ellipse Height="40" Fill="Blue"/>
+                <TextBlock>Text below an Ellipse</TextBlock>
+            </StackPanel>
+
+            <TextBlock>String in a TextBlock</TextBlock>
+        </ListBox>
     </Grid>
 </UserControl>

@@ -54,28 +54,34 @@
             </Grid.ColumnDefinitions>
 
 
-                <Grid
+            <Grid
                 Grid.Column="0"
-                    >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
                     
-                    <ContentControl
-                        x:Name="ToolbarContent"
-                        prism:RegionManager.RegionName="ToolbarRegion"
-                        Grid.Row="0"
-                        />
+                <ContentControl
+                    x:Name="ToolbarContent"
+                    prism:RegionManager.RegionName="ToolbarRegion"
+                    Grid.Row="0"
+                    />
 
 
-                    <ContentControl
-                        x:Name="ItemsExplorerContent"
-                        prism:RegionManager.RegionName="ItemsExplorerRegion"
-                        Grid.Row="1"
-                        />
+                <ContentControl
+                    x:Name="ItemsExplorerContent"
+                    prism:RegionManager.RegionName="ItemsExplorerRegion"
+                    Grid.Row="1"
+                    />
 
-                </Grid>
+            </Grid>
+
+                <ContentControl
+                    x:Name="CanvasContent"
+                    prism:RegionManager.RegionName="CanvasRegion"
+                Grid.Column="1"
+                    />
 
 
             <StackPanel

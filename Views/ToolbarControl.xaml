@@ -13,7 +13,6 @@
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="SelectionChanged">
                     <prism:InvokeCommandAction Command="{Binding SelectedCommand}"
-                                               CommandParameter="{Binding MyParameter}"
                                                TriggerParameterPath="AddedItems" />
                 </i:EventTrigger>
             </i:Interaction.Triggers>
@@ -22,10 +21,11 @@
                 <DataTemplate>
                     <StackPanel
                         Orientation="Horizontal">
-
+<!--
                         <Image
                             Source="{Binding Source}"
                             />
+-->
                         <TextBlock
                             Text="{Binding Item.Name}"
                             />

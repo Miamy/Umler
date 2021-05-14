@@ -3,6 +3,7 @@ using Prism.Mvvm;
 using Prism.Regions;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
 using Umler.Models;
@@ -33,7 +34,7 @@ namespace Umler.ViewModels
         public PropertiesControlViewModel()
         {
             //Selected = selected ?? throw new ArgumentNullException(nameof(selected));
-            Properties = new List<KeyValuePair<string, string>>();
+            Properties = new ObservableCollection<KeyValuePair<string, string>>();
         }
 
         private void FillProperties()
@@ -49,6 +50,10 @@ namespace Umler.ViewModels
             var instance = Selected;// Activator.CreateInstance(Selected);
             var allProperties = Selected.GetType().GetProperties();
 
+            foreach (var property in allProperties)
+            {
+                Properties.Add(new KeyValuePair<string, string>(property.Name, property.GetValue(instance).ToString()));
+            }
         }
 
         public void OnNavigatedTo(NavigationContext navigationContext)
