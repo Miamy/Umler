@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZSsowaNb/jQfBAYvgPL8mxrqlTrdIKEI6U/AMPC7L9UFTXZ0Ug3csUIvByx+gvrVX2/HItSp7ORi69ZDxxFbBw==",
+  "dgSpecHash": "KKc+2WCaa9hcDQKyz1ycWAY04s949PKxGguGyAXbMdCvE7SUX2I0A5umDAM41SRNAJ1y4JBzcsXvPy6vOLuP5Q==",
   "success": true,
-  "projectFilePath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.StatusBarModule\\Miamy.Umler.Modules.StatusBarModule.csproj",
+  "projectFilePath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.StatusBarModule\\Miamy.Umler.Modules.StatusBarModule.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vadim\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
-    "C:\\Users\\Vadim\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
-    "C:\\Users\\Vadim\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+    "C:\\Users\\Miamy\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Miamy\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Miamy\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,26 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {}
+    "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {}
   },
   "projects": {
-    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {
+    "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj",
+        "projectUniqueName": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj",
         "projectName": "Miamy.Umler.Core",
-        "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj",
-        "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\obj\\",
+        "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj",
+        "packagesPath": "C:\\Users\\Miamy\\.nuget\\packages\\",
+        "outputPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Miamy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -29,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "n:\\": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
@@ -71,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300-preview.21228.15\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
