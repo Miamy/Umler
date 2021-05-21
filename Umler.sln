@@ -3,9 +3,77 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler", "Miamy.Umler\Miamy.Umler\Miamy.Umler.csproj", "{1299146C-55BF-4AEE-AD10-C17D7FCA6263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Core", "Miamy.Umler\Miamy.Umler.Core\Miamy.Umler.Core.csproj", "{FFDE08CD-4385-4FFE-B75B-B501C57A036A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.MenuModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.MenuModule\Miamy.Umler.Modules.MenuModule.csproj", "{C347FDBF-2978-40AA-937D-D64458689C2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Services", "Miamy.Umler\Services\Miamy.Umler.Services\Miamy.Umler.Services.csproj", "{A94B7A03-AA26-4CAB-95E8-AFEBB5594FF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Services.Interfaces", "Miamy.Umler\Services\Miamy.Umler.Services.Interfaces\Miamy.Umler.Services.Interfaces.csproj", "{BA15E450-F12F-41A9-A5D5-082DB560023A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.MenuModule.Tests", "Miamy.Umler\Tests\Miamy.Umler.Modules.MenuModule.Tests\Miamy.Umler.Modules.MenuModule.Tests.csproj", "{4E35D599-7F1E-49E1-8703-0019A1E19215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B2A77030-C173-4E92-BBC4-2E5AED1FD26B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.StatusBarModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.StatusBarModule\Miamy.Umler.Modules.StatusBarModule.csproj", "{0470A6D3-D955-47AE-9556-95FDCD613946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.ToolbarModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.ToolbarModule\Miamy.Umler.Modules.ToolbarModule.csproj", "{2168E792-EF31-4E3B-8AAC-84BB13902CFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.CanvasModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.CanvasModule\Miamy.Umler.Modules.CanvasModule.csproj", "{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1299146C-55BF-4AEE-AD10-C17D7FCA6263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1299146C-55BF-4AEE-AD10-C17D7FCA6263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1299146C-55BF-4AEE-AD10-C17D7FCA6263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1299146C-55BF-4AEE-AD10-C17D7FCA6263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDE08CD-4385-4FFE-B75B-B501C57A036A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDE08CD-4385-4FFE-B75B-B501C57A036A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDE08CD-4385-4FFE-B75B-B501C57A036A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDE08CD-4385-4FFE-B75B-B501C57A036A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C347FDBF-2978-40AA-937D-D64458689C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C347FDBF-2978-40AA-937D-D64458689C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C347FDBF-2978-40AA-937D-D64458689C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C347FDBF-2978-40AA-937D-D64458689C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94B7A03-AA26-4CAB-95E8-AFEBB5594FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94B7A03-AA26-4CAB-95E8-AFEBB5594FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94B7A03-AA26-4CAB-95E8-AFEBB5594FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94B7A03-AA26-4CAB-95E8-AFEBB5594FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA15E450-F12F-41A9-A5D5-082DB560023A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA15E450-F12F-41A9-A5D5-082DB560023A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA15E450-F12F-41A9-A5D5-082DB560023A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA15E450-F12F-41A9-A5D5-082DB560023A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E35D599-7F1E-49E1-8703-0019A1E19215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E35D599-7F1E-49E1-8703-0019A1E19215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E35D599-7F1E-49E1-8703-0019A1E19215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E35D599-7F1E-49E1-8703-0019A1E19215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0470A6D3-D955-47AE-9556-95FDCD613946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0470A6D3-D955-47AE-9556-95FDCD613946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0470A6D3-D955-47AE-9556-95FDCD613946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0470A6D3-D955-47AE-9556-95FDCD613946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2168E792-EF31-4E3B-8AAC-84BB13902CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2168E792-EF31-4E3B-8AAC-84BB13902CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2168E792-EF31-4E3B-8AAC-84BB13902CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2168E792-EF31-4E3B-8AAC-84BB13902CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C347FDBF-2978-40AA-937D-D64458689C2A} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
+		{0470A6D3-D955-47AE-9556-95FDCD613946} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
+		{2168E792-EF31-4E3B-8AAC-84BB13902CFF} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
+		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35DA640E-E2FB-4191-86EF-4443CB00F6AD}

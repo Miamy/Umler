@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Miamy.Umler.Modules.StatusBarModule</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Miamy.Umler.Core\Miamy.Umler.Core.csproj" />
+    <ProjectReference Include="..\..\Services\Miamy.Umler.Services.Interfaces\Miamy.Umler.Services.Interfaces.csproj" />
+  </ItemGroup>
+</Project>

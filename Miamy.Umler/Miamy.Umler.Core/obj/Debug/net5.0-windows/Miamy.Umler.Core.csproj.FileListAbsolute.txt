@@ -1,0 +1,12 @@
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\bin\Debug\net5.0-windows\Miamy.Umler.Core.deps.json
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\bin\Debug\net5.0-windows\Miamy.Umler.Core.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\bin\Debug\net5.0-windows\ref\Miamy.Umler.Core.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\bin\Debug\net5.0-windows\Miamy.Umler.Core.pdb
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.AssemblyInfoInputs.cache
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.AssemblyInfo.cs
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.csproj.CoreCompileInputs.cache
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\ref\Miamy.Umler.Core.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.pdb
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.csproj.AssemblyReference.cache

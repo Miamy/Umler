@@ -1,0 +1,12 @@
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\bin\Debug\netstandard2.1\Miamy.Umler.Services.deps.json
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\bin\Debug\netstandard2.1\Miamy.Umler.Services.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\bin\Debug\netstandard2.1\Miamy.Umler.Services.pdb
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\bin\Debug\netstandard2.1\Miamy.Umler.Services.Interfaces.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\bin\Debug\netstandard2.1\Miamy.Umler.Services.Interfaces.pdb
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.csproj.AssemblyReference.cache
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.AssemblyInfoInputs.cache
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.AssemblyInfo.cs
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.csproj.CoreCompileInputs.cache
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.csproj.CopyComplete
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.dll
+c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services\obj\Debug\netstandard2.1\Miamy.Umler.Services.pdb

@@ -1,0 +1,311 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Tests\\Miamy.Umler.Modules.MenuModule.Tests\\Miamy.Umler.Modules.MenuModule.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj",
+        "projectName": "Miamy.Umler.Core",
+        "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj",
+        "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
+        "outputPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "n:\\": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300-preview.21228.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj",
+        "projectName": "Miamy.Umler.Modules.MenuModule",
+        "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj",
+        "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
+        "outputPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "n:\\": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {
+                "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj"
+              },
+              "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj": {
+                "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300-preview.21228.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj",
+        "projectName": "Miamy.Umler.Services.Interfaces",
+        "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
+        "outputPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "n:\\": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300-preview.21228.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Tests\\Miamy.Umler.Modules.MenuModule.Tests\\Miamy.Umler.Modules.MenuModule.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Tests\\Miamy.Umler.Modules.MenuModule.Tests\\Miamy.Umler.Modules.MenuModule.Tests.csproj",
+        "projectName": "Miamy.Umler.Modules.MenuModule.Tests",
+        "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Tests\\Miamy.Umler.Modules.MenuModule.Tests\\Miamy.Umler.Modules.MenuModule.Tests.csproj",
+        "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
+        "outputPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Tests\\Miamy.Umler.Modules.MenuModule.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "n:\\": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj": {
+                "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300-preview.21228.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
