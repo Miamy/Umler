@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Miamy.Umler.Core.ViewModels
 {
-    public class DrawableEntityBase : BaseModel
+    public class DrawableEntityBase : NamedModel
     {
         #region Properties
         private EntityBase _entity; 

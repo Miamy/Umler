@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Miamy.Umler.Modules.ToolbarModule.Models
 {
-    public class ToolbarItem : BaseModel
+    public class ToolbarItem : NamedModel
     {
         private string _source;
         public string Source

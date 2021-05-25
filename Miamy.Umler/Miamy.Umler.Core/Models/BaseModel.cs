@@ -1,30 +1,32 @@
-﻿using Prism.Mvvm;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Miamy.Umler.Core.Models
 {
-    public class BaseModel : BindableBase
+    public class BaseModel : NamedModel
     {
         #region Properties
-        private string _name;
-        public string Name
+        private AccessModifier _accessModifier;
+        public AccessModifier AccessModifier
         {
-            get => _name;
-            set => SetProperty(ref _name, value);
-
+            get => _accessModifier;
+            set => SetProperty(ref _accessModifier, value);
         }
+
+        private bool _isStatic;
+        public bool IsStatic
+        {
+            get => _isStatic;
+            set => SetProperty(ref _isStatic, value);
+        }
+
         #endregion //Properties
 
-
-        public BaseModel(string name)
+        public BaseModel(string name) : base(name)
         {
-            Name = name ?? throw new ArgumentNullException(nameof(name));
         }
     }
 }

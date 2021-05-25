@@ -30,11 +30,11 @@
             >
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="4"/>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="4"/>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <Grid
@@ -75,6 +75,8 @@
 
             <ContentControl 
                 Grid.Column="2"
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch"                
                 prism:RegionManager.RegionName="{x:Static core:RegionNames.CanvasRegion}" 
                 >
             

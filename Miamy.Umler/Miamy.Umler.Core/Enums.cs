@@ -18,6 +18,7 @@ namespace Miamy.Umler.Core
     {
         Abstract,
         Virtual,
-        Override
+        Override,
+        New
     }
 }
