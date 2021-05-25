@@ -64,7 +64,7 @@ namespace Miamy.Umler.Modules.ToolbarModule.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.ToolbarModule;V1.0.0.0;component/views/toolbarview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.ToolbarModule;component/views/toolbarview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ToolbarView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

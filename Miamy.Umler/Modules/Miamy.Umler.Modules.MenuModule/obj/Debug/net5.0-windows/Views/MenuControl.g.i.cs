@@ -59,7 +59,7 @@ namespace Miamy.Umler.Modules.MenuModule.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.MenuModule;V1.0.0.0;component/views/menucontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.MenuModule;component/views/menucontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\MenuControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

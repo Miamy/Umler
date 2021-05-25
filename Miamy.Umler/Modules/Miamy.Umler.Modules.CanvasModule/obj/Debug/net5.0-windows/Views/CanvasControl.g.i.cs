@@ -58,7 +58,7 @@ namespace Miamy.Umler.Modules.CanvasModule.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.CanvasModule;V1.0.0.0;component/views/canvascontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.CanvasModule;component/views/canvascontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CanvasControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Projects\Csharp\Umler\Miamy.Umler\Modules\Miamy.Umler.Modules.CanvasModule\obj\Debug\net5.0-windows\
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Modules\Miamy.Umler.Modules.CanvasModule\obj\Debug\net5.0-windows\
 Miamy.Umler.Modules.CanvasModule
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 1106322387
 
 3-316358668
-198-1566842087
+19898907340
 Views\CanvasControl.xaml;
 
 False

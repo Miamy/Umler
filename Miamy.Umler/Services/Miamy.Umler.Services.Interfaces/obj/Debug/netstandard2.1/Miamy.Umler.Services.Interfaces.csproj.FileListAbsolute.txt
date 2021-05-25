@@ -6,3 +6,4 @@ c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services.Interfaces\ob
 c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services.Interfaces\obj\Debug\netstandard2.1\Miamy.Umler.Services.Interfaces.csproj.CoreCompileInputs.cache
 c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services.Interfaces\obj\Debug\netstandard2.1\Miamy.Umler.Services.Interfaces.dll
 c:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services.Interfaces\obj\Debug\netstandard2.1\Miamy.Umler.Services.Interfaces.pdb
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Services\Miamy.Umler.Services.Interfaces\obj\Debug\netstandard2.1\Miamy.Umler.Services.Interfaces.csproj.AssemblyReference.cache

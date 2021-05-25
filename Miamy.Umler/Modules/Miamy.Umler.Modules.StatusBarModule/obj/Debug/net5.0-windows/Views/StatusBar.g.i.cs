@@ -59,7 +59,7 @@ namespace Miamy.Umler.Modules.StatusBarModule.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.StatusBarModule;V1.0.0.0;component/views/statusbar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Miamy.Umler.Modules.StatusBarModule;component/views/statusbar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\StatusBar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Projects\Csharp\Umler\Miamy.Umler\Modules\Miamy.Umler.Modules.StatusBarModule\obj\Debug\net5.0-windows\
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Modules\Miamy.Umler.Modules.StatusBarModule\obj\Debug\net5.0-windows\
 Miamy.Umler.Modules.StatusBarModule
 none
 false
@@ -13,8 +13,8 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 1728335326
 
 3339593268
-198-1566842087
+19898907340
 Views\StatusBar.xaml;
 
-True
+False
 
