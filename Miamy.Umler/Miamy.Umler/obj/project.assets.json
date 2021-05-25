@@ -285,6 +285,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Miamy.Umler.Modules.ExplorerModule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Miamy.Umler.Core": "1.0.0",
+          "Miamy.Umler.Services.Interfaces": "1.0.0",
+          "Prism.Wpf": "8.0.0.1909"
+        },
+        "compile": {
+          "bin/placeholder/Miamy.Umler.Modules.ExplorerModule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Miamy.Umler.Modules.ExplorerModule.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Miamy.Umler.Modules.MenuModule/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -298,6 +316,24 @@
         },
         "runtime": {
           "bin/placeholder/Miamy.Umler.Modules.MenuModule.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Miamy.Umler.Modules.PropertiesModule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Miamy.Umler.Core": "1.0.0",
+          "Miamy.Umler.Services.Interfaces": "1.0.0",
+          "Prism.Wpf": "8.0.0.1909"
+        },
+        "compile": {
+          "bin/placeholder/Miamy.Umler.Modules.PropertiesModule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Miamy.Umler.Modules.PropertiesModule.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -1235,10 +1271,20 @@
       "path": "../Modules/Miamy.Umler.Modules.CanvasModule/Miamy.Umler.Modules.CanvasModule.csproj",
       "msbuildProject": "../Modules/Miamy.Umler.Modules.CanvasModule/Miamy.Umler.Modules.CanvasModule.csproj"
     },
+    "Miamy.Umler.Modules.ExplorerModule/1.0.0": {
+      "type": "project",
+      "path": "../Modules/Miamy.Umler.Modules.ExplorerModule/Miamy.Umler.Modules.ExplorerModule.csproj",
+      "msbuildProject": "../Modules/Miamy.Umler.Modules.ExplorerModule/Miamy.Umler.Modules.ExplorerModule.csproj"
+    },
     "Miamy.Umler.Modules.MenuModule/1.0.0": {
       "type": "project",
       "path": "../Modules/Miamy.Umler.Modules.MenuModule/Miamy.Umler.Modules.MenuModule.csproj",
       "msbuildProject": "../Modules/Miamy.Umler.Modules.MenuModule/Miamy.Umler.Modules.MenuModule.csproj"
+    },
+    "Miamy.Umler.Modules.PropertiesModule/1.0.0": {
+      "type": "project",
+      "path": "../Modules/Miamy.Umler.Modules.PropertiesModule/Miamy.Umler.Modules.PropertiesModule.csproj",
+      "msbuildProject": "../Modules/Miamy.Umler.Modules.PropertiesModule/Miamy.Umler.Modules.PropertiesModule.csproj"
     },
     "Miamy.Umler.Modules.StatusBarModule/1.0.0": {
       "type": "project",
@@ -1265,7 +1311,9 @@
     "net5.0-windows7.0": [
       "Miamy.Umler.Core >= 1.0.0",
       "Miamy.Umler.Modules.CanvasModule >= 1.0.0",
+      "Miamy.Umler.Modules.ExplorerModule >= 1.0.0",
       "Miamy.Umler.Modules.MenuModule >= 1.0.0",
+      "Miamy.Umler.Modules.PropertiesModule >= 1.0.0",
       "Miamy.Umler.Modules.StatusBarModule >= 1.0.0",
       "Miamy.Umler.Modules.ToolbarModule >= 1.0.0",
       "Miamy.Umler.Services >= 1.0.0",
@@ -1278,23 +1326,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miamy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Vadim\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler\\Miamy.Umler.csproj",
+      "projectUniqueName": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler\\Miamy.Umler.csproj",
       "projectName": "Miamy.Umler",
-      "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler\\Miamy.Umler.csproj",
-      "packagesPath": "C:\\Users\\Miamy\\.nuget\\packages\\",
-      "outputPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler\\obj\\",
+      "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler\\Miamy.Umler.csproj",
+      "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
+      "outputPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Miamy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1303,32 +1356,39 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "n:\\": {}
       },
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler.Core\\Miamy.Umler.Core.csproj"
             },
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.CanvasModule\\Miamy.Umler.Modules.CanvasModule.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.CanvasModule\\Miamy.Umler.Modules.CanvasModule.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.CanvasModule\\Miamy.Umler.Modules.CanvasModule.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.CanvasModule\\Miamy.Umler.Modules.CanvasModule.csproj"
             },
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.ExplorerModule\\Miamy.Umler.Modules.ExplorerModule.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.ExplorerModule\\Miamy.Umler.Modules.ExplorerModule.csproj"
             },
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.StatusBarModule\\Miamy.Umler.Modules.StatusBarModule.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.StatusBarModule\\Miamy.Umler.Modules.StatusBarModule.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj"
             },
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.ToolbarModule\\Miamy.Umler.Modules.ToolbarModule.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.ToolbarModule\\Miamy.Umler.Modules.ToolbarModule.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.PropertiesModule\\Miamy.Umler.Modules.PropertiesModule.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.PropertiesModule\\Miamy.Umler.Modules.PropertiesModule.csproj"
             },
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.StatusBarModule\\Miamy.Umler.Modules.StatusBarModule.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.StatusBarModule\\Miamy.Umler.Modules.StatusBarModule.csproj"
             },
-            "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Services\\Miamy.Umler.Services\\Miamy.Umler.Services.csproj": {
-              "projectPath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Services\\Miamy.Umler.Services\\Miamy.Umler.Services.csproj"
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.ToolbarModule\\Miamy.Umler.Modules.ToolbarModule.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.ToolbarModule\\Miamy.Umler.Modules.ToolbarModule.csproj"
+            },
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services.Interfaces\\Miamy.Umler.Services.Interfaces.csproj"
+            },
+            "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services\\Miamy.Umler.Services.csproj": {
+              "projectPath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Services\\Miamy.Umler.Services\\Miamy.Umler.Services.csproj"
             }
           }
         }
@@ -1382,8 +1442,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300-preview.21228.15\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Miamy.Umler\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

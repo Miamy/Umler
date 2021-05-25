@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Miamy.Umler.Core.Views.ToolWindowBase"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:local="clr-namespace:Miamy.Umler.Core.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300">
+    <StackPanel
+            Orientation="Vertical"
+            MinWidth="200"
+            >
+
+        <StackPanel
+            Style="{StaticResource ResourceKey=ToolbarHeaderStyle}"
+                >
+
+            <i:Interaction.Triggers>
+                <i:EventTrigger 
+                        EventName="MouseEnter">
+                    <prism:InvokeCommandAction
+                            Command="{Binding SetActive}"
+                            />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+
+            <TextBlock
+                    Text="{Binding Title}"
+                    Foreground="White"
+                    TextAlignment="Center"
+                    />
+
+        </StackPanel>
+
+        <ContentPresenter>
+            
+            
+        </ContentPresenter>
+    </StackPanel>
+</UserControl>

@@ -1,7 +1,7 @@
 ﻿using Prism.Regions;
 using System;
 
-namespace Miamy.Umler.Core.Mvvm
+namespace Miamy.Umler.Core.ViewModels
 {
     public class RegionViewModelBase : ViewModelBase, INavigationAware, IConfirmNavigationRequest
     {

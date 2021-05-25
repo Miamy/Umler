@@ -10,6 +10,8 @@ namespace Miamy.Umler.Views
         public MainWindow()
         {
             InitializeComponent();
+
+            
         }
     }
 }

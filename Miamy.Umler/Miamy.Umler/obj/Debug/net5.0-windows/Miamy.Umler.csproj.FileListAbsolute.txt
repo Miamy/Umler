@@ -46,3 +46,9 @@ c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\obj\Debug\net5.0-windows\Miamy.
 c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\obj\Debug\net5.0-windows\Miamy.Umler.genruntimeconfig.cache
 C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\bin\Debug\net5.0-windows\Miamy.Umler.Modules.CanvasModule.dll
 C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\bin\Debug\net5.0-windows\Miamy.Umler.Modules.CanvasModule.pdb
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\bin\Debug\net5.0-windows\Miamy.Umler.Modules.ExplorerModule.dll
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\bin\Debug\net5.0-windows\Miamy.Umler.Modules.ExplorerModule.pdb
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\obj\Debug\net5.0-windows\Miamy.Umler_MarkupCompile.lref
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\obj\Debug\net5.0-windows\App.baml
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\bin\Debug\net5.0-windows\Miamy.Umler.Modules.PropertiesModule.dll
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler\bin\Debug\net5.0-windows\Miamy.Umler.Modules.PropertiesModule.pdb

@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+                    xmlns:prism="http://prismlibrary.com/"
+                    x:Name="AppDictionary"
+                    >
+
+
+    <Style x:Key="ToolbarHeaderStyle"
+           TargetType="{x:Type StackPanel}">
+        <Setter 
+            Property="Background" 
+            Value="DarkBlue"/>
+        <Style.Triggers>
+            <DataTrigger
+                Binding="{Binding IsActive}"
+                Value="True">
+                <Setter 
+                    Property="Background"
+                    Value="Orange"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+
+
+    <StackPanel 
+        x:Key="ToolbarHeaderPanel"
+        x:Shared="False"
+        Style="{StaticResource ResourceKey=ToolbarHeaderStyle}"
+        >
+
+        <i:Interaction.Triggers>
+            <i:EventTrigger 
+                EventName="MouseLeftButtonDown">
+                <prism:InvokeCommandAction
+                    Command="{Binding SetActive}"
+                    />
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+
+        <TextBlock
+            Text="{Binding Title}"
+            Foreground="White"
+            TextAlignment="Center"
+            />
+    </StackPanel>
+    
+</ResourceDictionary>

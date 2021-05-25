@@ -15,7 +15,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Miamy.Umler.Core\Miamy.Umler.Core.csproj" />
     <ProjectReference Include="..\Modules\Miamy.Umler.Modules.CanvasModule\Miamy.Umler.Modules.CanvasModule.csproj" />
+    <ProjectReference Include="..\Modules\Miamy.Umler.Modules.ExplorerModule\Miamy.Umler.Modules.ExplorerModule.csproj" />
     <ProjectReference Include="..\Modules\Miamy.Umler.Modules.MenuModule\Miamy.Umler.Modules.MenuModule.csproj" />
+    <ProjectReference Include="..\Modules\Miamy.Umler.Modules.PropertiesModule\Miamy.Umler.Modules.PropertiesModule.csproj" />
     <ProjectReference Include="..\Modules\Miamy.Umler.Modules.StatusBarModule\Miamy.Umler.Modules.StatusBarModule.csproj" />
     <ProjectReference Include="..\Modules\Miamy.Umler.Modules.ToolbarModule\Miamy.Umler.Modules.ToolbarModule.csproj" />
     <ProjectReference Include="..\Services\Miamy.Umler.Services.Interfaces\Miamy.Umler.Services.Interfaces.csproj" />

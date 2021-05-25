@@ -1,5 +1,7 @@
 ﻿using Miamy.Umler.Modules.CanvasModule;
+using Miamy.Umler.Modules.ExplorerModule;
 using Miamy.Umler.Modules.MenuModule;
+using Miamy.Umler.Modules.PropertiesModule;
 using Miamy.Umler.Modules.StatusBarModule;
 using Miamy.Umler.Modules.ToolbarModule;
 using Miamy.Umler.Services;
@@ -33,6 +35,8 @@ namespace Miamy.Umler
             moduleCatalog.AddModule<StatusBarModule>();
             moduleCatalog.AddModule<ToolbarModule>();
             moduleCatalog.AddModule<CanvasModule>();
+            moduleCatalog.AddModule<ExplorerModule>();
+            moduleCatalog.AddModule<PropertiesModule>();
         }
     }
 }

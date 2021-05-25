@@ -4,17 +4,17 @@
 library
 C#
 .cs
-c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\
 Miamy.Umler.Core
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 
-11032701540
+21621007250
 
-82067841138
+142009827893
 196-1394534834
-Views\ToolWindowBaseView.xaml;
+AppDictionary.xaml;Views\ToolWindowBase.xaml;
 
-False
+True
 

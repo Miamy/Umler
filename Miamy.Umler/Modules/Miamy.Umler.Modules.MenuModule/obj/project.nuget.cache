@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NmMU41hTWs/ErQEBeanOyHnKSoIc7gzUHNEoC1wdWX4h2MlAUAKh6LKM8TFaEJos3INZLTD6JbKRgPVx7ywS/w==",
+  "dgSpecHash": "b/65PexZ3/6OVDh3r1P91NcolU3n2jdMnGwX4mcw3/cKqF7dUPcplSA2OeBgVfGix33/pcWiUEe4FPd5xFTM3w==",
   "success": true,
-  "projectFilePath": "d:\\Projects\\Csharp\\Umler\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj",
+  "projectFilePath": "C:\\CSharp\\_Workspace\\Uml\\Miamy.Umler\\Modules\\Miamy.Umler.Modules.MenuModule\\Miamy.Umler.Modules.MenuModule.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Miamy\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
-    "C:\\Users\\Miamy\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
-    "C:\\Users\\Miamy\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+    "C:\\Users\\Vadim\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Vadim\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Vadim\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
   ],
   "logs": []
 }

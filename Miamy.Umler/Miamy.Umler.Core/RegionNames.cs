@@ -9,5 +9,7 @@ namespace Miamy.Umler.Core
         
         public const string ToolbarRegion = "ToolbarRegion";
         public const string CanvasRegion = "CanvasRegion";
+        public const string ExplorerRegion = "ExplorerRegion";
+        public const string PropertiesRegion = "PropertiesRegion";
     }
 }

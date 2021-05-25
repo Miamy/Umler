@@ -1,5 +1,6 @@
 ﻿using Miamy.Umler.Core.Models;
-using Miamy.Umler.Core.Mvvm;
+using Miamy.Umler.Core.ViewModels;
+using Miamy.Umler.Modules.ToolbarModule.Models;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Regions;

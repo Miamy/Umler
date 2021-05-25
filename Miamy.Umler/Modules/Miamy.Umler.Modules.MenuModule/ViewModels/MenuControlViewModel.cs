@@ -1,4 +1,4 @@
-﻿using Miamy.Umler.Core.Mvvm;
+﻿using Miamy.Umler.Core.ViewModels;
 using Miamy.Umler.Services.Interfaces;
 using Prism.Commands;
 using Prism.Events;

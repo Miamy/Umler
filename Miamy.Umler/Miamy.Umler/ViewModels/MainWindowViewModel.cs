@@ -1,4 +1,4 @@
-﻿using Miamy.Umler.Core.Mvvm;
+﻿using Miamy.Umler.Core.ViewModels;
 using Prism.Mvvm;
 using Prism.Regions;
 

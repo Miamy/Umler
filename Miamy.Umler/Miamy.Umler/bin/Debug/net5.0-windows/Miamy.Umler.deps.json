@@ -10,7 +10,9 @@
         "dependencies": {
           "Miamy.Umler.Core": "1.0.0",
           "Miamy.Umler.Modules.CanvasModule": "1.0.0",
+          "Miamy.Umler.Modules.ExplorerModule": "1.0.0",
           "Miamy.Umler.Modules.MenuModule": "1.0.0",
+          "Miamy.Umler.Modules.PropertiesModule": "1.0.0",
           "Miamy.Umler.Modules.StatusBarModule": "1.0.0",
           "Miamy.Umler.Modules.ToolbarModule": "1.0.0",
           "Miamy.Umler.Services": "1.0.0",
@@ -201,6 +203,16 @@
           "Miamy.Umler.Modules.CanvasModule.dll": {}
         }
       },
+      "Miamy.Umler.Modules.ExplorerModule/1.0.0": {
+        "dependencies": {
+          "Miamy.Umler.Core": "1.0.0",
+          "Miamy.Umler.Services.Interfaces": "1.0.0",
+          "Prism.Wpf": "8.0.0.1909"
+        },
+        "runtime": {
+          "Miamy.Umler.Modules.ExplorerModule.dll": {}
+        }
+      },
       "Miamy.Umler.Modules.MenuModule/1.0.0": {
         "dependencies": {
           "Miamy.Umler.Core": "1.0.0",
@@ -209,6 +221,16 @@
         },
         "runtime": {
           "Miamy.Umler.Modules.MenuModule.dll": {}
+        }
+      },
+      "Miamy.Umler.Modules.PropertiesModule/1.0.0": {
+        "dependencies": {
+          "Miamy.Umler.Core": "1.0.0",
+          "Miamy.Umler.Services.Interfaces": "1.0.0",
+          "Prism.Wpf": "8.0.0.1909"
+        },
+        "runtime": {
+          "Miamy.Umler.Modules.PropertiesModule.dll": {}
         }
       },
       "Miamy.Umler.Modules.StatusBarModule/1.0.0": {
@@ -409,7 +431,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Miamy.Umler.Modules.ExplorerModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Miamy.Umler.Modules.MenuModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Miamy.Umler.Modules.PropertiesModule/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

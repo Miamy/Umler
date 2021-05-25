@@ -1,12 +1,13 @@
-﻿using Miamy.Umler.Core.Mvvm;
+﻿using Miamy.Umler.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
-namespace Miamy.Umler.Core.Models
+namespace Miamy.Umler.Modules.ToolbarModule.Models
 {
     public class ToolbarItem : BaseModel
     {

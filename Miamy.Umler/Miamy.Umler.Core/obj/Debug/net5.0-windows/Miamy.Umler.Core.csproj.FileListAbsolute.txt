@@ -10,3 +10,9 @@ c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\M
 c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\ref\Miamy.Umler.Core.dll
 c:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.pdb
 C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.csproj.AssemblyReference.cache
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Views\ToolWindowBase.g.cs
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core_MarkupCompile.cache
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core_MarkupCompile.lref
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Views\ToolWindowBase.baml
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\Miamy.Umler.Core.g.resources
+C:\CSharp\_Workspace\Uml\Miamy.Umler\Miamy.Umler.Core\obj\Debug\net5.0-windows\AppDictionary.baml

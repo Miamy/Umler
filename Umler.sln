@@ -23,6 +23,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.Toolbar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.CanvasModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.CanvasModule\Miamy.Umler.Modules.CanvasModule.csproj", "{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.ExplorerModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.ExplorerModule\Miamy.Umler.Modules.ExplorerModule.csproj", "{8EDC91B7-3FCA-4118-92A3-BD1898472770}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miamy.Umler.Modules.PropertiesModule", "Miamy.Umler\Modules\Miamy.Umler.Modules.PropertiesModule\Miamy.Umler.Modules.PropertiesModule.csproj", "{78FBE3CC-0F58-49D4-B1A0-94CF57775121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B3CB60D-6A0E-496F-8D45-A1F0360DFA94}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +75,14 @@ Global
 		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDC91B7-3FCA-4118-92A3-BD1898472770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDC91B7-3FCA-4118-92A3-BD1898472770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDC91B7-3FCA-4118-92A3-BD1898472770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDC91B7-3FCA-4118-92A3-BD1898472770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FBE3CC-0F58-49D4-B1A0-94CF57775121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FBE3CC-0F58-49D4-B1A0-94CF57775121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FBE3CC-0F58-49D4-B1A0-94CF57775121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FBE3CC-0F58-49D4-B1A0-94CF57775121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +92,8 @@ Global
 		{0470A6D3-D955-47AE-9556-95FDCD613946} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
 		{2168E792-EF31-4E3B-8AAC-84BB13902CFF} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
 		{D91B5DB2-8DEE-4D50-A2E0-AA4F6DF82742} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
+		{8EDC91B7-3FCA-4118-92A3-BD1898472770} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
+		{78FBE3CC-0F58-49D4-B1A0-94CF57775121} = {B2A77030-C173-4E92-BBC4-2E5AED1FD26B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35DA640E-E2FB-4191-86EF-4443CB00F6AD}
