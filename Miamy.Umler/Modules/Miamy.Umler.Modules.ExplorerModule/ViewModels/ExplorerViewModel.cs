@@ -1,6 +1,7 @@
 ﻿using Miamy.Umler.Core.Models;
 using Miamy.Umler.Core.ViewModels;
 using Prism.Commands;
+using Prism.Events;
 using Prism.Mvvm;
 using Prism.Regions;
 using System;

@@ -1,5 +1,4 @@
-﻿using Miamy.Umler.Core.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Miamy.Umler.Modules.ToolbarModule.Models
+namespace Miamy.Umler.Core.Models
 {
     public class ToolbarItem : NamedModel
     {

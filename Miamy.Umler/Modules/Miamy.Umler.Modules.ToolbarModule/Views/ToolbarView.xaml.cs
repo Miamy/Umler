@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Miamy.Umler.Core;
+using Miamy.Umler.Core.Models;
+using Prism.Commands;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +23,14 @@ namespace Miamy.Umler.Modules.ToolbarModule.Views
     /// </summary>
     public partial class ToolbarView : UserControl
     {
+
         public ToolbarView()
         {
             InitializeComponent();
+
         }
+
+      
+
     }
 }

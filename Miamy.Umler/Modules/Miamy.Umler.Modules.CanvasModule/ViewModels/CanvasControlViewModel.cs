@@ -1,6 +1,8 @@
-﻿using Miamy.Umler.Core.Models;
+﻿using Miamy.Umler.Core;
+using Miamy.Umler.Core.Models;
 using Miamy.Umler.Core.ViewModels;
 using Prism.Commands;
+using Prism.Events;
 using Prism.Mvvm;
 using Prism.Regions;
 using System;
@@ -12,6 +14,8 @@ namespace Miamy.Umler.Modules.CanvasModule.ViewModels
 {
     public class CanvasControlViewModel : RegionViewModelBase
     {
+        private IEventAggregator _eventAggregator;
+
         #region Properties
         private string _title = "CanvasControlViewModel";
         public string Title
@@ -40,10 +44,24 @@ namespace Miamy.Umler.Modules.CanvasModule.ViewModels
             get => _entities;
             set => SetProperty(ref _entities, value);
         }
+
+
+        private ToolbarItem _selected;
+        public ToolbarItem Selected
+        {
+            get => _selected;
+            set
+            {
+                SetProperty(ref _selected, value);
+            }
+        }
         #endregion //Properties
 
-        public CanvasControlViewModel(IRegionManager regionManager) : base(regionManager)
+        public CanvasControlViewModel(IRegionManager regionManager, IEventAggregator eventAggregator) : base(regionManager)
         {
+            _eventAggregator = eventAggregator;
+            _eventAggregator.GetEvent<ToolbarToolSelectedEvent>().Subscribe(SetSelectedItem);
+
             Model = new CanvasModel();
 
             CreateCommands();
@@ -73,5 +91,12 @@ namespace Miamy.Umler.Modules.CanvasModule.ViewModels
 
         public ICommand AddEntityCommand { get; private set; }
         #endregion
+
+
+        private void SetSelectedItem(ToolbarItem item)
+        {
+            Selected = item;
+        }
+
     }
 }

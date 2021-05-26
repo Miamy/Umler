@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
-             xmlns:prism="http://prismlibrary.com/"
+             xmlns:prism="http://prismlibrary.com/" 
+             d:DataContext="{d:DesignInstance Type=local:ToolbarViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
              prism:ViewModelLocator.AutoWireViewModel="True" >
@@ -16,10 +17,10 @@
 
             <i:Interaction.Triggers>
                 <i:EventTrigger 
-                EventName="MouseLeftButtonDown">
+                    EventName="MouseLeftButtonDown">
                     <prism:InvokeCommandAction
-                    Command="{Binding SetActive}"
-                    />
+                        Command="{Binding SetActive}"
+                        />
                 </i:EventTrigger>
             </i:Interaction.Triggers>
 
@@ -31,7 +32,19 @@
                 Background="AliceBlue"
                 VerticalContentAlignment="Stretch"
                 d:ItemsSource="{d:SampleData}"
+                SelectionMode="Single"
                 >
+
+                <i:Interaction.Triggers>
+                    <i:EventTrigger 
+                        EventName="SelectionChanged">
+                        <prism:InvokeCommandAction
+                            Command="{Binding SelectToolCommand}" 
+                            TriggerParameterPath="AddedItems"
+                            />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+
 
                 <ListBox.ItemTemplate>
                     <DataTemplate>
