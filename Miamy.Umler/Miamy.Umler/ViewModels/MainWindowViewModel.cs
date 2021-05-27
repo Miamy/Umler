@@ -9,8 +9,8 @@ namespace Miamy.Umler.ViewModels
         private string _title = "Umler";
         public string Title
         {
-            get => _title; 
-            set => SetProperty(ref _title, value); 
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
 
         public MainWindowViewModel(IRegionManager regionManager) : base(regionManager)

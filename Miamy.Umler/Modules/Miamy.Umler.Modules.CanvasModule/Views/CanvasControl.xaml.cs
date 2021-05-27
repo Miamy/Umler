@@ -12,5 +12,6 @@ namespace Miamy.Umler.Modules.CanvasModule.Views
         {
             InitializeComponent();
         }
+
     }
 }

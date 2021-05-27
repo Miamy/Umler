@@ -21,8 +21,8 @@ namespace Miamy.Umler.Modules.StatusBarModule.ViewModels
         private string _message;
         public string Message
         {
-            get => _message; 
-            set => SetProperty(ref _message, value); 
+            get => _message;
+            set => SetProperty(ref _message, value);
         }
 
         public ICommand SetMessageCommand { get; }

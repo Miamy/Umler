@@ -5,14 +5,61 @@
              xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Miamy.Umler.Modules.CanvasModule"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300" 
              >
+
+    <ItemsControl 
+        ItemsSource="{Binding Path=Entities}" 
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Stretch" 
+        >
+
+        <i:Interaction.Triggers>
+            <i:EventTrigger 
+                EventName="MouseLeftButtonDown">
+                <prism:InvokeCommandAction
+                    Command="{Binding AddEntityCommand}"
+                    TriggerParameterPath="MouseDevice"
+                    />
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <Canvas 
+                    Background="LightBlue" 
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    />
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <Rectangle 
+                    Stroke="Black" 
+                    Fill="White" 
+                    Width="{Binding Width}" 
+                    Height="{Binding Height}"
+                    />
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+        <ItemsControl.ItemContainerStyle>
+            <Style>
+                <Setter Property="Canvas.Top" Value="{Binding Path=Top}" />
+                <Setter Property="Canvas.Left" Value="{Binding Path=Left}" />
+            </Style>
+        </ItemsControl.ItemContainerStyle>
+    </ItemsControl>
+    
+    <!--
     <Canvas    
         MinHeight="300"
         MinWidth="300"
         Background="LightGray"
+        local:CanvasAssistant.BoundChildren="{Binding Entities}"
         >
 
         <i:Interaction.Triggers>
@@ -25,4 +72,5 @@
         </i:Interaction.Triggers>
 
     </Canvas>
+    -->
 </UserControl>

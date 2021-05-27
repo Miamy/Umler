@@ -11,7 +11,7 @@ namespace Miamy.Umler.Views
         {
             InitializeComponent();
 
-            
+
         }
     }
 }

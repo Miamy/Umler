@@ -24,7 +24,7 @@ namespace Miamy.Umler.Modules.MenuModule.ViewModels
         /// </summary>
         public ICommand MenuItemCommand { get; private set; }
 
-        public MenuControlViewModel(IRegionManager regionManager, IMessageService messageService) :  base(regionManager)
+        public MenuControlViewModel(IRegionManager regionManager, IMessageService messageService) : base(regionManager)
         {
             //Message = messageService.GetMessage();
 

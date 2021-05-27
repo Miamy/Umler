@@ -20,8 +20,8 @@ namespace Miamy.Umler.Modules.CanvasModule.ViewModels
         private string _title = "CanvasControlViewModel";
         public string Title
         {
-            get => _title; 
-            set => SetProperty(ref _title, value); 
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
 
         private CanvasModel _model;
@@ -71,18 +71,19 @@ namespace Miamy.Umler.Modules.CanvasModule.ViewModels
         #region Commands
         private void CreateCommands()
         {
-            AddEntityCommand = new DelegateCommand(AddEntityAction);
+            AddEntityCommand = new DelegateCommand<MouseDevice>(AddEntityAction);
         }
 
-        private void AddEntityAction()
+        private void AddEntityAction(MouseDevice mouse)
         {
             var entity = new ClassEntity("Class1");
             Model.Entities.Add(entity);
 
+            var p = mouse.GetPosition(mouse.DirectlyOver);
             var drawableEntity = new DrawableEntityBase(entity)
             {
-                Left = 50,
-                Top = 50,
+                Left = (int)p.X,
+                Top = (int)p.Y,
                 Width = 50,
                 Height = 50
             };

@@ -30,7 +30,7 @@ namespace Miamy.Umler.Modules.ToolbarModule.Views
 
         }
 
-      
+
 
     }
 }

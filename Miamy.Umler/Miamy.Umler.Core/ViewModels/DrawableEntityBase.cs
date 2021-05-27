@@ -10,7 +10,7 @@ namespace Miamy.Umler.Core.ViewModels
     public class DrawableEntityBase : NamedModel
     {
         #region Properties
-        private EntityBase _entity; 
+        private EntityBase _entity;
         public EntityBase Entity
         {
             get => _entity;
@@ -20,9 +20,9 @@ namespace Miamy.Umler.Core.ViewModels
 
         private int _left;
         public int Left
-        { 
+        {
             get => _left;
-            set => SetProperty(ref _left, value); 
+            set => SetProperty(ref _left, value);
         }
 
         private int _top;

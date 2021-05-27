@@ -18,7 +18,7 @@ namespace Miamy.Umler.Modules.MenuModule.Views
     /// <summary>
     /// Interaction logic for MenuView.xaml
     /// </summary>
-    public partial class MenuControl: UserControl
+    public partial class MenuControl : UserControl
     {
         public MenuControl()
         {

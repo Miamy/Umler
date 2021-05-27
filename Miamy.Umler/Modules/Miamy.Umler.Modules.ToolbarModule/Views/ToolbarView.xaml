@@ -33,6 +33,7 @@
                 VerticalContentAlignment="Stretch"
                 d:ItemsSource="{d:SampleData}"
                 SelectionMode="Single"
+                SelectedItem="{Binding Selected}"
                 >
 
                 <i:Interaction.Triggers>

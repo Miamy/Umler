@@ -54,7 +54,7 @@ namespace Miamy.Umler.Modules.ToolbarModule.ViewModels
             };
 
             SelectToolCommand = new DelegateCommand<object[]>(SelectToolAction);
-
+            Selected = Items[0];
         }
 
 
